@@ -1,0 +1,53 @@
+@import 'http://fonts.googleapis.com/css?family=Bree+Serif'
+$bree: 'Bree Serif', serif
+$lighter: lighten($color, 15%)
+$lightest: lighten($color, 25%)
+$lightestest: lighten($color, 45%)
+$hover: $color
+$background-color: #fff
+$alternate-color: #eee
+
+body
+  background-color: $background-color
+  font-size: 23vmin
+  margin: -.2em 0 0 0
+
+div
+  margin: 0 auto
+  width: 35vw
+
+h1, h2, h3, h4
+  text-align: center
+  margin: 0
+  padding: 0
+  font-family: $bree
+
+a
+  text-decoration: none
+  &:link, &:visited
+    color: inherit
+  &:active, &:hover
+    color: $hover
+
+h1
+  font-size: 1.15em
+  font-weight: 400
+  color: $color
+  background-color: $alternate-color
+  line-height: 40vh
+
+h2
+  font-size: .34em
+  color: $lighter
+  line-height: 20vh
+
+h3
+  font-size: .26em
+  color: $lightest
+  background-color: $alternate-color
+  line-height: 25vh
+
+h4
+  font-size: .165em
+  color: $lightestest
+  line-height: 15vh
