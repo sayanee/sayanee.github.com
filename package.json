@@ -1,0 +1,22 @@
+{
+  "name": "sayanee",
+  "version": "1.0.0",
+  "description": "profile page of sayanee",
+  "main": "index.html",
+  "scripts": {
+    "css": "sass --watch sass/style.sass:style.css --style compressed --sourcemap=none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayanee/sayanee.github.com.git"
+  },
+  "keywords": [
+    "profile"
+  ],
+  "author": "sayanee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sayanee/sayanee.github.com/issues"
+  },
+  "homepage": "https://github.com/sayanee/sayanee.github.com#readme"
+}

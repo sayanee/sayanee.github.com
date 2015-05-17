@@ -1,0 +1,67 @@
+@media only screen and (max-width: 600px)
+  hr
+    margin: 1em 0
+  .header, .content
+    width: 100%
+    margin: 0 auto
+  .subtitle
+    display: block
+  .projects, .contacts
+    margin-top: .2em
+    li
+      display: block
+      text-align: left
+      a
+        padding: .4em
+        width: 100%
+        display: block
+      &:nth-child(even)
+        background: lighten($blue, 45%)
+      &:nth-child(odd)
+        background: lighten($blue, 40%)
+      &:after
+        content: ''
+        padding: 0
+      &:hover .helptext
+        display: none
+  .works
+    font-size: .6em
+    margin: .5em 0 5em 0
+    li
+      width: 25%
+      float: left
+      padding: .8em 0
+      &:nth-child(even)
+        background: lighten($blue, 45%)
+      &:nth-child(odd)
+        background: lighten($blue, 40%)
+      &:after
+        content: ''
+        padding: 0
+      &:hover .helptext
+        display: none
+    a
+      padding: .3em
+      &:after
+        content: ''
+          padding: 0
+  .title
+    font-size: 2em
+  .tagline
+    font-size: .8em
+  .table
+    tr:nth-child(odd)
+      background: transparent
+    td
+      width: 100%
+      display: block
+      background: transparent
+      &:first-child
+        background: lighten($grey, 10%)
+        font-weight: bold
+      &:not(:first-child)
+        padding-left: 1.5em
+      &:last-child
+        text-align: left
+    a
+      display: block

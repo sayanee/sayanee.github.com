@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sayanee | Engineer Writer Speaker</title>
-  <meta name="description" content="Sayanee is an engineer dabbling with web technologies and electronics. ">
+  <meta name="description" content="Sayanee is an engineer dabbling with web technologies and electronics.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -29,7 +30,9 @@
   </div>
 
   <div class="content">
-    <img src="sayanee.jpg" class="profile">
+    <img src="sayanee.jpg" class="profile" alt="Profile picture of sayanee">
+
+    <h4 class="subtitle">my projects</h4>
     <ul class="projects">
       <li>
         <a href="http://build-podcast.com">build podcast</a>
@@ -41,6 +44,7 @@
       </li>
     </ul>
 
+    <h4 class="subtitle">my contacts</h4>
     <ul class="contacts">
       <li><a href="http://blog.sayan.ee">blog</a></li>
       <li><a href="mailto:sayanee@gmail.com">email</a></li>
@@ -49,6 +53,7 @@
       <li><a href="http://lanyrd.com/profile/sayanee">lanyrd</a></li>
     </ul>
 
+    <h4 class="subtitle">my works</h4>
     <ul class="works">
       <li><a href="#articles" id="display-articles">articles</a></li>
       <li><a href="#screencasts" id="display-screencasts">screencasts</a></li>
@@ -60,7 +65,7 @@
 
     <table class="table" id="articles">
       <tr>
-        <td><a href="https://dev.opera.com/articles/wifi-ble-javascript/">Electronics for the JavaScript Developer...</a></td>
+        <td><a href="https://dev.opera.com/articles/wifi-ble-javascript/">Electronics for the JavaScript Developer</a></td>
         <td>Apr 2015</td>
       </tr>
       <tr>
@@ -154,7 +159,7 @@ var workTableIds = [
 
 var urlHash = window.location.hash;
 var blackColor = '#6F7178';
-var blueColor = '#379ABC';
+var redColor = '#D55359';
 
 function displayWorkTable(tableElId) {
   console.log(tableElId)
@@ -176,7 +181,7 @@ function changeToDefaultColor() {
 // on url hash change
 if (workTableIds.indexOf(urlHash.substring(1)) > -1) {
   changeToDefaultColor();
-  document.getElementById('display-'.concat(urlHash.substring(1))).style.color = blueColor;
+  document.getElementById('display-'.concat(urlHash.substring(1))).style.color = redColor;
   displayWorkTable(urlHash.substring(1));
 }
 
@@ -185,7 +190,7 @@ worksElIds.forEach(function(id) {
   var workEl = document.getElementById(id);
   workEl.addEventListener('click', function() {
     changeToDefaultColor();
-    workEl.style.color = blueColor;
+    workEl.style.color = redColor;
     displayWorkTable(workEl.getAttribute('href').substring(1));
   })
 });
