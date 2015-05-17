@@ -1,0 +1,21 @@
+.projects
+  @extend .list
+  margin: 0
+  font-size: 1.3em
+  a
+    &:visited, &:link
+      color: lighten($black, 20%)
+    &:hover, &:active
+      color: $red
+  li
+    @extend .help
+
+.helptext
+  font-size: .6em
+  position: absolute
+  display: none
+  text-align: left
+  top: -1.5em
+  left: 0
+  width: 100%
+  font-family: $sans

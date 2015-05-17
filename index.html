@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Sayanee | Engineer Writer Speaker</title>
-  <meta name="description" content="Sayanee is an engineer, writer and a speaker. ">
-  <link rel="stylesheet" href="style1.css">
+  <meta name="description" content="Sayanee is an engineer dabbling with web technologies and electronics. ">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -13,30 +13,180 @@
     <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience :)</p>
   <![endif]-->
 
-  <h1>sayanee</h1>
-  <h2>engineer &#183; writer &#183; speaker</h2>
-  <h3><a href="http://build-podcast.com">build podcast</a> &#183; <a href="http://hub.tutsplus.com/authors/sayanee-basu--cms-2199">tuts+</a> &#183; <a href="http://live.webuild.sg">webuild live</a></h3>
-  <h4><a href="http://blog.sayan.ee/">blog</a> &#183; <a href="mailto:sayanee@gmail.com">email</a> &#183; <a href="https://github.com/sayanee">github</a> &#183; <a href="https://twitter.com/sayanee_">twitter</a> &#183; <a href="https://speakerdeck.com/sayanee">slides</a></h4>
+<div class="site">
 
-  <img src="sayanee.jpg" class="profile">
+  <div class="header">
+    <div class="header-logo">
+      <div class="logo"></div>
+      <h1 class="title"><a href="/">sayanee</a></h1>
+    </div>
 
-  <script>
-  var num = Math.floor(Math.random() * 4) + 1;
-  var stylesheet = 'style' + num + '.css';
-  document.head.getElementsByTagName('link')[0].setAttribute('href', stylesheet);
-  </script>
+    <ul class="tagline">
+      <li>engineer</li>
+      <li>writer</li>
+      <li>speaker</li>
+    </ul>
+  </div>
 
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-17662354-1']);
-    _gaq.push(['_trackPageview']);
+  <div class="content">
+    <ul class="projects">
+      <li>
+        <a href="http://build-podcast.com">build podcast</a>
+        <span class="helptext">i'm learning by screencasting</span>
+      </li>
+      <li>
+        <a href="https://webuild.sg">webuild sg</a>
+        <span class="helptext">i'm sharing by curating</span>
+      </li>
+    </ul>
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+    <ul class="contacts">
+      <li><a href="http://blog.sayan.ee">blog</a></li>
+      <li><a href="mailto:sayanee@gmail.com">email</a></li>
+      <li><a href="https://github.com/sayanee">github</a></li>
+      <li><a href="https://twitter.com/sayanee_">twitter</a></li>
+      <li><a href="http://lanyrd.com/profile/sayanee">lanyrd</a></li>
+    </ul>
+
+    <ul class="works">
+      <li><a href="#articles" id="display-articles">articles</a></li>
+      <li><a href="#screencasts" id="display-screencasts">screencasts</a></li>
+      <li><a href="#talks" id="display-talks">talk videos & slides</a></li>
+    </ul>
+
+    <table class="table" id="articles">
+      <tr>
+        <td><a href="https://dev.opera.com/articles/wifi-ble-javascript/">Electronics for the JavaScript Developer...</a></td>
+        <td>22 Apr 2015</td>
+      </tr>
+      <tr>
+        <td><a href="http://code.tutsplus.com/tutorials/travis-ci-what-why-how--net-34771">Travis-CI: What, Why, How</a></td>
+        <td>18 Sept 2013</td>
+      </tr>
+      <tr>
+        <td><a href="http://code.tutsplus.com/articles/use-ecmascript-6-today--net-31582">Use ECMAScript 6 Today</a></td>
+        <td>7 May 2013</td>
+      </tr>
+      <tr>
+        <td><a href="http://code.tutsplus.com/articles/team-collaboration-with-github--net-29876">Team Collaboration With GitHub</a></td>
+        <td>28 Feb 2013</td>
+      </tr>
+      <tr>
+        <td><a href="http://code.tutsplus.com/tutorials/source-maps-101--net-29173">Source Maps 101</a></td>
+        <td>16 Jan 2013</td>
+      </tr>
+      <tr>
+        <td><a href="http://code.tutsplus.com/tutorials/getting-started-with-typescript--net-28890">Getting Started with TypeScript</a></td>
+        <td>8 Jan 2013</td>
+      </tr>
+    </table>
+
+    <table class="table" id="screencasts">
+      <tr>
+        <td><a href="http://code.tutsplus.com/courses/more-tools-of-the-modern-web-developer">More Tools of the Modern Web Developer</a></td>
+        <td>5 Jun 2013</td>
+      </tr>
+      <tr>
+        <td><a href="http://code.tutsplus.com/courses/tools-of-the-modern-web-developer">Tools of the Modern Web Developer</a></td>
+        <td>1 Nov 2013</td>
+      </tr>
+    </table>
+
+    <table class="table" id="talks">
+      <tr>
+        <td><a href="http://2015.front-trends.com/speakers/#sayanee-basu">Let's mashup the web and the real world</a></td>
+        <td><a href="http://mashup.sayan.ee/">slides</a></td>
+        <td>8 May 2015</td>
+      </tr>
+      <tr>
+        <td><a href="http://nushackers.org/2015/02/friday-hacks-88-Feb-13/">Getting involved in the developer community</a></td>
+        <td><a href="https://docs.google.com/presentation/d/1rmcBg29jvHfMgE_T618M4BmV1o7UDlQeoGIkJoAdAYA/pub?start=false&loop=false&delayms=3000">slides</a></td>
+        <td>7 Feb 2015</td>
+      </tr>
+      <tr>
+        <td>Curating the Tech community</td>
+        <td><a href="https://www.youtube.com/watch?v=vi6x4labcDA">video</a></td>
+        <td>28 Sep 2014</td>
+      </tr>
+      <tr>
+        <td><a href="https://rdrc2014.herokuapp.com/#sayanee">Podcasting with Jekyll</a></td>
+        <td><a href="https://www.youtube.com/watch?v=KAddrblLlp4">video</a><br><a href="">slides</a></td>
+        <td>26 Jun 2014</td>
+      </tr>
+      <tr>
+        <td><a href="http://www.meetup.com/Singapore-Ruby-Group/events/174440162/">Rails API</a></td>
+        <td><a href="https://speakerdeck.com/sayanee/rails-api">slides</a><br><a href="https://github.com/sayanee/Talks/blob/master/013-rails-api">code</a></td>
+        <td>29 Apr 2014</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- <img src="sayanee.jpg" class="profile"> -->
+</div>
+
+<script>
+var worksElIds = [
+  'display-articles',
+  'display-screencasts',
+  'display-talks'
+];
+
+var workTableIds = [
+  'articles',
+  'screencasts',
+  'talks'
+];
+
+var urlHash = window.location.hash;
+var blackColor = '#6F7178';
+var blueColor = '#379ABC';
+
+function displayWorkTable(tableElId) {
+  console.log(tableElId)
+  workTableIds.forEach(function(tableId) {
+    if (tableElId === tableId) {
+      document.getElementById(tableElId).style.display= 'table';
+    } else {
+      document.getElementById(tableId).style.display = 'none';
+    }
+  })
+}
+
+function changeToDefaultColor() {
+  worksElIds.forEach(function(workElId) {
+    document.getElementById(workElId).style.color = blackColor;
+  })
+}
+
+// on url hash change
+if (workTableIds.indexOf(urlHash.substring(1)) > -1) {
+  changeToDefaultColor();
+  document.getElementById('display-'.concat(urlHash.substring(1))).style.color = blueColor;
+  displayWorkTable(urlHash.substring(1));
+}
+
+// on click
+worksElIds.forEach(function(id) {
+  var workEl = document.getElementById(id);
+  workEl.addEventListener('click', function() {
+    changeToDefaultColor();
+    workEl.style.color = blueColor;
+    displayWorkTable(workEl.getAttribute('href').substring(1));
+  })
+});
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17662354-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
 
 </body>
 </html>

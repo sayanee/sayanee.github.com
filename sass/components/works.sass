@@ -1,0 +1,12 @@
+.works
+  @extend .list
+  font-size: 1.16em
+  margin: 1em 0 0 0
+  font-family: $sans
+  li
+    @extend .help
+  a
+    &:link, &:visited
+      color: lighten($black, 20%)
+    &:hover, &:active
+      color: $blue

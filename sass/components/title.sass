@@ -1,0 +1,16 @@
+.title
+  text-align: center
+  font-size: 3.5em
+  font-family: $font
+  text-transform: uppercase
+  margin: 0
+  line-height: 1.4em
+  text-shadow: 1px 1px lighten($blue, 30%), 2px 2px lighten($blue, 30%), 3px 3px lighten($blue, 30%)
+  -webkit-transition: all 0.12s ease-out
+  @include transition-property(all)
+  @include transition-duration(0.3s)
+  @include transition-timing-function(ease)
+  a
+    border-bottom: none
+    text-decoration: none
+    color: lighten($black, 20%)

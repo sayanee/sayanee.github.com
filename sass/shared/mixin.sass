@@ -1,0 +1,30 @@
+@mixin transform($transforms)
+  -moz-transform: $transforms
+  -o-transform: $transforms
+  -ms-transform: $transforms
+  -webkit-transform: $transforms
+  transform: $transforms
+
+@mixin rotate ($deg)
+  @include transform(rotate(#{$deg}))
+
+@mixin transition-property($transition)
+  -moz-transition-property: $transition
+  -o-transition-property: $transition
+  -ms-transition-property: $transition
+  -webkit-transition-property: $transition
+  transition-property: $transition
+
+@mixin transition-duration($time)
+  -moz-transition-duration: $time
+  -o-transition-duration: $time
+  -ms-transition-duration: $time
+  -webkit-transition-duration: $time
+  transition-duration: $time
+
+@mixin transition-timing-function($function)
+  -moz-transition-timing-function: $function
+  -o-transition-timing-function: $function
+  -ms-transition-timing-function: $function
+  -webkit-transition-timing-function: $function
+  transition-timing-function: $function

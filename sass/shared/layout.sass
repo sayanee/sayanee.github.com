@@ -1,0 +1,29 @@
+*
+  box-sizing: border-box
+  margin: 0
+
+body, html
+  font-size: 1.15em
+  height: 100%
+  color: $black
+  font-family: $font
+
+::selection
+  background: lighten($blue, 40%)
+::-moz-selection
+  background: lighten($blue, 40%)
+
+img
+  margin: 0 auto
+  display: block
+  max-width: 100%
+
+.site
+  margin: 0 auto -100px auto
+  min-height: 100%
+
+.header, .content
+  padding: 2em calc(50% - 250px)
+
+.header
+  background-color: lighten(black, 98%)

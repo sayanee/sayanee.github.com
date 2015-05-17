@@ -1,3 +1,7 @@
-# [Sayanee](http://sayan.ee)
+# [sayanee](http://sayan.ee)
 
-My landing page for current projects and contact
+> personal homepage for a list of my contact and work
+
+##license
+
+[MIT](/LICENSE)

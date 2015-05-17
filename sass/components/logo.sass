@@ -1,0 +1,22 @@
+.logo
+  cursor: pointer
+  font-size: 2em
+  margin: 0
+  &:before, &:after
+    content: ""
+    display: block
+    margin: 0 auto
+    height: 1em
+    width: 2em
+    @include rotate(-30deg)
+    @include transition-property(all)
+    @include transition-duration(0.3s)
+    @include transition-timing-function(ease)
+  &:before
+    border-top-left-radius: 2em
+    border-top-right-radius: 2em
+    background: $blue
+  &:after
+    border-bottom-left-radius: 2em
+    border-bottom-right-radius: 2em
+    background: $red

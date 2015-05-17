@@ -1,0 +1,20 @@
+.list
+  padding: 0
+  list-style: none
+  text-align: center
+  li
+    display: inline
+    position: relative
+    a
+      text-decoration: none
+
+.help
+  &:hover .helptext
+    display: block
+  &:after
+    content: "·"
+    color: $grey
+    padding: 0 .5em
+  &:last-child:after
+    content: ""
+    padding: 0
