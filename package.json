@@ -4,7 +4,8 @@
   "description": "profile page of sayanee",
   "main": "index.html",
   "scripts": {
-    "css": "sass --watch sass/style.sass:style.css --style compressed --sourcemap=none"
+    "css": "sass --watch sass/style.sass:style.css --style compressed --sourcemap=none",
+    "start": "python -m SimpleHTTPServer 8000 && open http://localhost:8000"
   },
   "repository": {
     "type": "git",
