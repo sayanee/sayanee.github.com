@@ -198,6 +198,13 @@ worksElIds.forEach(function(id) {
     displayWorkTable(workEl.getAttribute('href').substring(1));
   })
 });
+
+function addEmoji() {
+  if (navigator.userAgent.indexOf('Mac OS X') != -1) {
+    window.location.hash = "🚀";
+  }
+};
+addEmoji();
 </script>
 
 <script type="text/javascript">
