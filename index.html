@@ -199,8 +199,24 @@ worksElIds.forEach(function(id) {
   })
 });
 
+var coolThingsToPlay = [
+  '🚀',
+  '🔌',
+  '🔩',
+  '📱',
+  '💻',
+  '💡',
+  '📡',
+  '🌱',
+  '🌿',
+  '🚄',
+  '🏠',
+  '🎛',
+  '🔭',
+  '🔬'
+]
 if (navigator.userAgent.indexOf('Mac OS X') !== -1) {
-  window.location.hash = "🚀";
+  window.location.hash = coolThingsToPlay[ Math.floor( Math.random() * ( coolThingsToPlay.length - 1 ) ) ];
 }
 </script>
 
