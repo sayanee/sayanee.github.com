@@ -4,10 +4,11 @@
   "description": "profile page of sayanee",
   "main": "index.html",
   "scripts": {
-    "build:css": "sass --watch sass/style.sass:style.css --style compressed --sourcemap=none",
+    "build": "sass sass/style.sass:style.css --style compressed --sourcemap=none",
     "deploy": "git push",
     "start": "python -m SimpleHTTPServer 8000 && open http://localhost:8000",
-    "test": "hyperlink cv/index.html index.html | tap-nyan"
+    "test": "hyperlink cv/index.html index.html | tap-nyan",
+    "watch": "sass --watch sass/style.sass:style.css --style compressed --sourcemap=none"
   },
   "repository": {
     "type": "git",
