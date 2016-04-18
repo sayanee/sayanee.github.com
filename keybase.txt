@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/sayanee
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sayan.ee
+  * I am sayanee (https://keybase.io/sayanee) on keybase.
+  * I have a public key ASAzWMhk7qeDrj4GRqCdGL50lI4MZayZTvrIFZjJsQHJTgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01203358c864eea783ae3e0646a09d18be74948e0c65ac994efac81598c9b101c94e0a",
+            "host": "keybase.io",
+            "kid": "01203358c864eea783ae3e0646a09d18be74948e0c65ac994efac81598c9b101c94e0a",
+            "uid": "10b3d0299d94665aac1a881139452e00",
+            "username": "sayanee"
+        },
+        "service": {
+            "hostname": "sayan.ee",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.13"
+    },
+    "ctime": 1460948132,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1460948116,
+        "hash": "363ed32cdf25b282948948b5bc53100d87666d94ab7e0305c7b2e9c60cd24ac3b2d6d06138aceb49d531e97f15930cfbefa5bbcf0c851e27e2bea973ab214a00",
+        "seqno": 445195
+    },
+    "prev": "c9935a43f88f76adb49ab59291f4c05ddc7e0e7e51853dc650679e4d0f2fe908",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgM1jIZO6ng64+BkagnRi+dJSODGWsmU76yBWYybEByU4Kp3BheWxvYWTFAu97ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMzM1OGM4NjRlZWE3ODNhZTNlMDY0NmEwOWQxOGJlNzQ5NDhlMGM2NWFjOTk0ZWZhYzgxNTk4YzliMTAxYzk0ZTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMzM1OGM4NjRlZWE3ODNhZTNlMDY0NmEwOWQxOGJlNzQ5NDhlMGM2NWFjOTk0ZWZhYzgxNTk4YzliMTAxYzk0ZTBhIiwidWlkIjoiMTBiM2QwMjk5ZDk0NjY1YWFjMWE4ODExMzk0NTJlMDAiLCJ1c2VybmFtZSI6InNheWFuZWUifSwic2VydmljZSI6eyJob3N0bmFtZSI6InNheWFuLmVlIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTMifSwiY3RpbWUiOjE0NjA5NDgxMzIsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ2MDk0ODExNiwiaGFzaCI6IjM2M2VkMzJjZGYyNWIyODI5NDg5NDhiNWJjNTMxMDBkODc2NjZkOTRhYjdlMDMwNWM3YjJlOWM2MGNkMjRhYzNiMmQ2ZDA2MTM4YWNlYjQ5ZDUzMWU5N2YxNTkzMGNmYmVmYTViYmNmMGM4NTFlMjdlMmJlYTk3M2FiMjE0YTAwIiwic2Vxbm8iOjQ0NTE5NX0sInByZXYiOiJjOTkzNWE0M2Y4OGY3NmFkYjQ5YWI1OTI5MWY0YzA1ZGRjN2UwZTdlNTE4NTNkYzY1MDY3OWU0ZDBmMmZlOTA4Iiwic2Vxbm8iOjgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA4k/EeEnd8lbji2XLXvdDuFwCg7W6FliMcweYtvIpyZLfGn7nArPNzH2+z6Dz3UTG8hsPGKd3UOFpc0uDGDieDahzaWdfdHlwZSCjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sayanee
+
+==================================================================
