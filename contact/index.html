@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sayanee | Engineer Writer Speaker</title>
+  <meta name="description" content="Currently designing tiny gadgets just for fun">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.2/css/bulma.min.css"
+    integrity="sha512-byErQdWdTqREz6DLAA9pCnLbdoGGhXfU6gm1c8bkf7F51JVmUBlayGe2A31VpXWQP+eiJ3ilTAZHCR3vmMyybA=="
+    crossorigin="anonymous">
+  <link href="//fonts.googleapis.com/css?family=Schoolbell&amp;display=swap" rel="stylesheet">
+  <style>
+    .handwriting { font-family: 'Schoolbell', cursive; margin: 0.5em; line-height: 1; }
+  </style>
+</head>
+
+<body>
+
+  <section class="section is-medium">
+    <div class="container">
+      <div class="content is-large">
+        <h1>Contact me</h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <div class="content is-large">
+            <p>I am increasingly getting more emails and I am struggling to answer each of them with the attention it deserves.</p>
+
+            <p>Please choose below for the nature of the query:</p>
+          </div>
+
+          <p class="handwriting has-text-grey-light">frequently asked</p>
+
+          <div class="buttons are-large">
+            <a class="button is-light" href="#" id="consulting">Consulting services</a>
+            <a class="button is-light" href="#" id="technical">Technical question</a>
+          </div>
+
+          <p class="handwriting has-text-grey-light">others</p>
+
+          <div class="buttons are-large">
+            <a class="button is-light" href="mailto:sayanee+home@gmail.com">Email me</a>
+          </div>
+        </div>
+        <div class="column">
+          <article class="message" id="consulting-info" style="display:none;">
+            <div class="message-header">
+              Consulting services
+              <button class="delete"></button>
+            </div>
+            <div class="message-body">
+              <div class="content is-medium">
+                <p>I do not do any engineering consulting.</p>
+                <p>Unfortunately, I can neither recommend anyone because I have never personally worked with any freelancers.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="message" id="technical-info" style="display: none;">
+            <div class="message-header">
+              Technical question
+              <button class="delete"></button>
+            </div>
+            <div class="message-body">
+              <div class="content is-medium">
+                <p>I'm increasingly unable to answer personal technical questions due to my work and family commitments. I also do not have all the in-depth knowledge beyond certain tools and technologies shown in my videos and open source repositories. I wish I could help with everyone's technical questions, but sadly I simply cannot. Thanks for your understanding.</p>
+
+                <p>If your question is <strong>related to a specific video</strong>, please post a comment in that video. You might get a faster response from someone else, get more than one reply with various viewpoints and also help someone else with similar issues.</p>
+
+                <p>If your question is a <strong>general technical or debugging question</strong>, I recommend the following public forums to post your questions instead. I use them myself whenever I am stuck.</p>
+
+                <ul>
+                  <li><a href="https://forum.arduino.cc/">Arduino</a></li>
+                  <li><a href="https://stackoverflow.com/">Stackoverflow</a></li>
+                  <li><a href="https://hackaday.io/stack">Hackaday .stack</a></li>
+                  <li><a href="https://arduino.stackexchange.com/">Arduino Stackexchange</a></li>
+                  <li><a href="https://electronics.stackexchange.com/">Electronics Stackexchange</a></li>
+                  <li><a href="https://forum.kicad.info/">KiCad Forums</a></li>
+                  <li><a href="https://www.reddit.com/r/PrintedCircuitBoard">Reddit PCB for PCB review</a></li>
+                </ul>
+
+                <p>I have also found these links helpful when asking for a solution in public forums or chats:</p>
+
+                <ul>
+                  <li><a href="https://stackoverflow.com/help/minimal-reproducible-example">Create a minimal reproducible example</a></li>
+                  <li><a href="http://www.catb.org/~esr/faqs/smart-questions.html">Ask questions the smart way</a></li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        (document.querySelectorAll('.message .delete') || []).forEach((deleteEl) => {
+          const messageEl = deleteEl.parentNode
+
+          deleteEl.addEventListener('click', () => {
+            messageEl.parentNode.style.display = 'none'
+          })
+        })
+
+
+        document.getElementById('consulting').addEventListener('click', () => {
+          document.getElementById('consulting-info').style.display = 'block'
+          document.getElementById('technical-info').style.display = 'none'
+        })
+
+        document.getElementById('technical').addEventListener('click', () => {
+          document.getElementById('technical-info').style.display = 'block'
+          document.getElementById('consulting-info').style.display = 'none'
+        })
+      })
+  </script>
+</body>
+</html>
