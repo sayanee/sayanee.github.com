@@ -35,6 +35,19 @@
 
             <p>I wish I could reply to everyone's emails, but sadly I simply cannot. Thanks for your understanding. Please choose the nature of query.</p>
 
+            <article class="message" id="sponsorship-info" style="display:none;">
+              <div class="message-header">
+                Sponsorships
+                <button class="delete"></button>
+              </div>
+              <div class="message-body">
+                <div class="content is-medium">
+                  <p>I'm not looking for any PCB manufacturing or 3D printing sponsorship currently.</p>
+                  <p>For any other sponsorships, please <a href="mailto:sayanee+sponsorships@gmail.com">email me</a>.</p>
+                </div>
+              </div>
+            </article>
+
             <article class="message" id="consulting-info" style="display:none;">
               <div class="message-header">
                 Consulting services
@@ -94,6 +107,7 @@
 
           <div class="buttons are-large">
             <a class="button is-light" id="consulting">Consulting services</a>
+            <a class="button is-light" id="sponsorship">Sponsorships</a>
             <a class="button is-light" id="technical">Technical question</a>
             <a class="button is-light" href="https://hutscape.com/tools">Tools I use</a>
           </div>
@@ -121,11 +135,19 @@
         document.getElementById('consulting').addEventListener('click', () => {
           document.getElementById('consulting-info').style.display = 'block'
           document.getElementById('technical-info').style.display = 'none'
+          document.getElementById('sponsorship-info').style.display = 'none'
+        })
+
+        document.getElementById('sponsorship').addEventListener('click', () => {
+          document.getElementById('sponsorship-info').style.display = 'block'
+          document.getElementById('consulting-info').style.display = 'none'
+          document.getElementById('technical-info').style.display = 'none'
         })
 
         document.getElementById('technical').addEventListener('click', () => {
           document.getElementById('technical-info').style.display = 'block'
           document.getElementById('consulting-info').style.display = 'none'
+          document.getElementById('sponsorship-info').style.display = 'none'
         })
       })
   </script>
